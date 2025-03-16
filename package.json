@@ -41,6 +41,12 @@
             "title": "Resize Window Down",
             "description": "Resize the current window downward",
             "mode": "no-view"
+        },
+        {
+            "name": "toggle-float",
+            "title": "Toggle Float",
+            "description": "Toggle the floating state of the current window",
+            "mode": "no-view"
         }
     ],
     "preferences": [
