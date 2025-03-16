@@ -47,6 +47,18 @@
             "title": "Toggle Float",
             "description": "Toggle the floating state of the current window",
             "mode": "no-view"
+        },
+        {
+            "name": "zoom-fullscreen",
+            "title": "Zoom Fullscreen",
+            "description": "Zoom the current window to fullscreen",
+            "mode": "no-view"
+        },
+        {
+            "name": "native-fullscreen",
+            "title": "Native Fullscreen",
+            "description": "Toggle the native fullscreen state of the current window",
+            "mode": "no-view"
         }
     ],
     "preferences": [
