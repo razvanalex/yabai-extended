@@ -5,7 +5,7 @@
     "description": "Enhance Yabai extension",
     "icon": "yabai-icon-512px.png",
     "author": "razvanalex",
-    "contributors": [ ],
+    "contributors": [],
     "categories": [
         "Developer Tools",
         "Productivity"
@@ -16,6 +16,30 @@
             "name": "move-window-space-prev",
             "title": "Move Window to Previous Space",
             "description": "Move the current window to the previous space",
+            "mode": "no-view"
+        },
+        {
+            "name": "resize-window-left",
+            "title": "Resize Window Left",
+            "description": "Resize the current window to the left",
+            "mode": "no-view"
+        },
+        {
+            "name": "resize-window-right",
+            "title": "Resize Window Right",
+            "description": "Resize the current window to the right",
+            "mode": "no-view"
+        },
+        {
+            "name": "resize-window-up",
+            "title": "Resize Window Up",
+            "description": "Resize the current window upward",
+            "mode": "no-view"
+        },
+        {
+            "name": "resize-window-down",
+            "title": "Resize Window Down",
+            "description": "Resize the current window downward",
             "mode": "no-view"
         }
     ],
@@ -29,9 +53,9 @@
         },
         {
             "name": "resizeStep",
-            "type": "number",
+            "type": "textfield",
             "required": false,
-            "default": 50,
+            "default": "50",
             "title": "Resize Step",
             "description": "The number of pixels to resize windows by (default: 50)"
         }
